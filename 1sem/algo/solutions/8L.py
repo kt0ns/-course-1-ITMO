@@ -1,23 +1,3 @@
-# n = int(input())
-#
-# a = []
-#
-# for _ in range(n):
-#     a.append(list(map(int, input().split())))
-# s = 0
-# while n > 0:
-#     if a[-n][0] < a[-n][1] and a[-n][0] < a[-n][2] or n == 1:
-#         s += a[-n][0]
-#         n -= 1
-#     elif a[-n][1] < a[-n][0] and a[-n][1] < a[-n][2] and n > 1:
-#         s += a[-n][1]
-#         n -= 2
-#     else:
-#         s += a[-n][2]
-#         n -= 3
-#
-# print(s)
-
 n = int(input())
 a = []
 
